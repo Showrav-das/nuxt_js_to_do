@@ -2,6 +2,6 @@
   <div></div>
 </template>
 
-<script setup></script>
+<script setup="ts"></script>
 
 <style scoped></style>

@@ -1,4 +1,9 @@
-export default defineNuxtConfig({
+export default {
   css: ["@/assets/css/main.css"],
-  // compatibilityDate: '2024-12-06', 
-});
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
+};
